@@ -1,0 +1,13 @@
+C:\Users\LENOVO\OneDrive\Documents\Git\VISUAL\Posttest 1\Posttest 1\bin\Debug\Posttest 1.exe.config
+C:\Users\LENOVO\OneDrive\Documents\Git\VISUAL\Posttest 1\Posttest 1\bin\Debug\Posttest 1.exe
+C:\Users\LENOVO\OneDrive\Documents\Git\VISUAL\Posttest 1\Posttest 1\bin\Debug\Posttest 1.pdb
+C:\Users\LENOVO\OneDrive\Documents\Git\VISUAL\Posttest 1\Posttest 1\bin\Debug\Posttest 1.xml
+C:\Users\LENOVO\OneDrive\Documents\Git\VISUAL\Posttest 1\Posttest 1\obj\Debug\Posttest 1.vbproj.AssemblyReference.cache
+C:\Users\LENOVO\OneDrive\Documents\Git\VISUAL\Posttest 1\Posttest 1\obj\Debug\Posttest 1.vbproj.SuggestedBindingRedirects.cache
+C:\Users\LENOVO\OneDrive\Documents\Git\VISUAL\Posttest 1\Posttest 1\obj\Debug\Posttest_1.Form1.resources
+C:\Users\LENOVO\OneDrive\Documents\Git\VISUAL\Posttest 1\Posttest 1\obj\Debug\Posttest_1.Resources.resources
+C:\Users\LENOVO\OneDrive\Documents\Git\VISUAL\Posttest 1\Posttest 1\obj\Debug\Posttest 1.vbproj.GenerateResource.cache
+C:\Users\LENOVO\OneDrive\Documents\Git\VISUAL\Posttest 1\Posttest 1\obj\Debug\Posttest 1.vbproj.CoreCompileInputs.cache
+C:\Users\LENOVO\OneDrive\Documents\Git\VISUAL\Posttest 1\Posttest 1\obj\Debug\Posttest 1.exe
+C:\Users\LENOVO\OneDrive\Documents\Git\VISUAL\Posttest 1\Posttest 1\obj\Debug\Posttest 1.xml
+C:\Users\LENOVO\OneDrive\Documents\Git\VISUAL\Posttest 1\Posttest 1\obj\Debug\Posttest 1.pdb
