@@ -7,6 +7,7 @@ Public Class form1
         cmbUkuran.Focus()
         cmbUkuran.Text = ""
         txtHarga.Clear()
+        txtCari.Clear()
         txtId.Focus()
     End Sub
     Sub Isi()
@@ -16,7 +17,7 @@ Public Class form1
         txtHarga.Clear()
         txtHarga.Focus()
     End Sub
-    Sub TampilJenis()
+    Sub TampilData()
         DA = New MySqlDataAdapter("Select * From tbkostum", CONN)
         DS = New DataSet
         DS.Clear()
@@ -25,9 +26,9 @@ Public Class form1
         DataGridView1.Refresh()
     End Sub
 
-    Private Sub DataJenis_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    Private Sub Data_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Call koneksi()
-        Call TampilJenis()
+        Call TampilData()
         Call Reset()
     End Sub
     Private Sub btnSimpan_Click(sender As Object, e As EventArgs) Handles btnTambah.Click
@@ -40,13 +41,14 @@ Public Class form1
             RD = CMD.ExecuteReader
             RD.Read()
             RD.Close()
+
             If Not RD.HasRows Then
                 Dim Simpan As String = "insert into tbkostum (ID, Nama, Ukuran, Harga) values ('" & txtId.Text & "','" & txtNama.Text & "','" & cmbUkuran.Text & "','" & txtHarga.Text & "')"
                 CMD = New MySqlCommand(Simpan, CONN)
                 CMD.ExecuteNonQuery()
                 MsgBox("Data berhasil di simpan, Admin-San!", MsgBoxStyle.Information, "HOREE")
             End If
-            Call TampilJenis()
+            Call TampilData()
             Call Reset()
             txtId.Focus()
         End If
@@ -63,6 +65,21 @@ Public Class form1
         Call Reset()
     End Sub
 
+    Private Sub btnUbah_Click(sender As Object, e As EventArgs) Handles btnUbah.Click
+        If txtId.Text = "" Then
+            MsgBox("Tolong isi ID terlebih dahulu, Admin-San")
+            txtId.Focus()
+        Else
+            Dim Ubah As String = "Update tbkostum set id = '" & txtId.Text & "', Nama = '" & txtNama.Text & "' where Id = '" & txtId.Text & "'"
+            CMD = New MySqlCommand(Ubah, CONN)
+            CMD.ExecuteNonQuery()
+            MessageBox.Show("Data berhasi diubah Admin-San", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            Call TampilData()
+            Call Reset()
+            txtId.Focus()
+        End If
+    End Sub
+
     Private Sub btnHapus_Click(sender As Object, e As EventArgs) Handles btnHapus.Click
         If txtId.Text = "" Then
             MsgBox("ID belum diisi, Admin-San")
@@ -72,13 +89,31 @@ Public Class form1
                 CMD = New MySqlCommand("Delete From tbkostum Where id = '" & txtId.Text & "'", CONN)
                 CMD.ExecuteNonQuery()
                 Call Reset()
-                Call TampilJenis()
+                Call TampilData()
             Else
                 Call Reset()
             End If
         End If
+    End Sub
 
+    Private Sub txtCari_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtCari.KeyPress
+        If e.KeyChar = Chr(13) Then
+            CMD = New MySqlCommand("Select * From tbkostum where id like '%" & txtCari.Text & "%'", CONN)
+            RD = CMD.ExecuteReader
+            RD.Read()
+
+            If RD.HasRows Then
+                RD.Close()
+                DA = New MySqlDataAdapter("Select * From tbkostum where id like '%" & txtCari.Text & "%'", CONN)
+                DS = New DataSet
+                DA.Fill(DS, "Data ditemukan Admin-San !")
+                DataGridView1.DataSource = DS.Tables("Data ditemukan Admin-San !")
+                DataGridView1.ReadOnly = True
+
+            Else
+                RD.Close()
+                MsgBox("Data tidak ditemukan, Admin-San")
+            End If
+        End If
     End Sub
 End Class
-
-

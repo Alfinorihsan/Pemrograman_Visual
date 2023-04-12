@@ -37,6 +37,9 @@ Partial Class form1
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
+        Me.btnUbah = New System.Windows.Forms.Button()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.txtCari = New System.Windows.Forms.TextBox()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -75,7 +78,7 @@ Partial Class form1
         'btnTambah
         '
         Me.btnTambah.Font = New System.Drawing.Font("Franklin Gothic Medium Cond", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnTambah.Location = New System.Drawing.Point(60, 450)
+        Me.btnTambah.Location = New System.Drawing.Point(60, 426)
         Me.btnTambah.Name = "btnTambah"
         Me.btnTambah.Size = New System.Drawing.Size(123, 42)
         Me.btnTambah.TabIndex = 3
@@ -95,7 +98,7 @@ Partial Class form1
         'btnKeluar
         '
         Me.btnKeluar.Font = New System.Drawing.Font("Franklin Gothic Medium Cond", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnKeluar.Location = New System.Drawing.Point(292, 450)
+        Me.btnKeluar.Location = New System.Drawing.Point(539, 426)
         Me.btnKeluar.Name = "btnKeluar"
         Me.btnKeluar.Size = New System.Drawing.Size(123, 42)
         Me.btnKeluar.TabIndex = 6
@@ -105,7 +108,7 @@ Partial Class form1
         'btnHapus
         '
         Me.btnHapus.Font = New System.Drawing.Font("Franklin Gothic Medium Cond", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnHapus.Location = New System.Drawing.Point(539, 450)
+        Me.btnHapus.Location = New System.Drawing.Point(380, 426)
         Me.btnHapus.Name = "btnHapus"
         Me.btnHapus.Size = New System.Drawing.Size(123, 42)
         Me.btnHapus.TabIndex = 7
@@ -187,12 +190,43 @@ Partial Class form1
         Me.Label5.TabIndex = 15
         Me.Label5.Text = "Manajemen Data Kostum Anna-Chan"
         '
+        'btnUbah
+        '
+        Me.btnUbah.Font = New System.Drawing.Font("Franklin Gothic Medium Cond", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnUbah.Location = New System.Drawing.Point(214, 426)
+        Me.btnUbah.Name = "btnUbah"
+        Me.btnUbah.Size = New System.Drawing.Size(123, 42)
+        Me.btnUbah.TabIndex = 16
+        Me.btnUbah.Text = "Ubah"
+        Me.btnUbah.UseVisualStyleBackColor = True
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Franklin Gothic Medium Cond", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(66, 483)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(41, 25)
+        Me.Label6.TabIndex = 17
+        Me.Label6.Text = "Cari"
+        '
+        'txtCari
+        '
+        Me.txtCari.Font = New System.Drawing.Font("Franklin Gothic Medium Cond", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtCari.Location = New System.Drawing.Point(180, 480)
+        Me.txtCari.Name = "txtCari"
+        Me.txtCari.Size = New System.Drawing.Size(324, 30)
+        Me.txtCari.TabIndex = 18
+        '
         'form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Pink
         Me.ClientSize = New System.Drawing.Size(718, 831)
+        Me.Controls.Add(Me.txtCari)
+        Me.Controls.Add(Me.Label6)
+        Me.Controls.Add(Me.btnUbah)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
@@ -232,4 +266,7 @@ Partial Class form1
     Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents Label5 As Label
+    Friend WithEvents btnUbah As Button
+    Friend WithEvents Label6 As Label
+    Friend WithEvents txtCari As TextBox
 End Class
