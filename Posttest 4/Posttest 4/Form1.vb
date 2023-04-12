@@ -70,7 +70,7 @@ Public Class form1
             MsgBox("Tolong isi ID terlebih dahulu, Admin-San")
             txtId.Focus()
         Else
-            Dim Ubah As String = "Update tbkostum set id = '" & txtId.Text & "', Nama = '" & txtNama.Text & "' where Id = '" & txtId.Text & "'"
+            Dim Ubah As String = "Update tbkostum set id = '" & txtId.Text & "', Nama = '" & txtNama.Text & "', Ukuran = '" & cmbUkuran.Text & "', Harga = '" & txtHarga.Text & "' where Id = '" & txtId.Text & "'"
             CMD = New MySqlCommand(Ubah, CONN)
             CMD.ExecuteNonQuery()
             MessageBox.Show("Data berhasi diubah Admin-San", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information)
