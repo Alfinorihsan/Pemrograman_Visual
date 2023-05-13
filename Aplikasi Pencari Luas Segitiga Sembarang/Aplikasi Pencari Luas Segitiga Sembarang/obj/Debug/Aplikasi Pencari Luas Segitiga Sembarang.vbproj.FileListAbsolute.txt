@@ -1,0 +1,13 @@
+C:\Users\LENOVO\OneDrive\Documents\Git\VISUAL\Aplikasi Pencari Luas Segitiga Sembarang\Aplikasi Pencari Luas Segitiga Sembarang\bin\Debug\Aplikasi Pencari Luas Segitiga Sembarang.exe.config
+C:\Users\LENOVO\OneDrive\Documents\Git\VISUAL\Aplikasi Pencari Luas Segitiga Sembarang\Aplikasi Pencari Luas Segitiga Sembarang\bin\Debug\Aplikasi Pencari Luas Segitiga Sembarang.exe
+C:\Users\LENOVO\OneDrive\Documents\Git\VISUAL\Aplikasi Pencari Luas Segitiga Sembarang\Aplikasi Pencari Luas Segitiga Sembarang\bin\Debug\Aplikasi Pencari Luas Segitiga Sembarang.pdb
+C:\Users\LENOVO\OneDrive\Documents\Git\VISUAL\Aplikasi Pencari Luas Segitiga Sembarang\Aplikasi Pencari Luas Segitiga Sembarang\bin\Debug\Aplikasi Pencari Luas Segitiga Sembarang.xml
+C:\Users\LENOVO\OneDrive\Documents\Git\VISUAL\Aplikasi Pencari Luas Segitiga Sembarang\Aplikasi Pencari Luas Segitiga Sembarang\obj\Debug\Aplikasi Pencari Luas Segitiga Sembarang.vbproj.AssemblyReference.cache
+C:\Users\LENOVO\OneDrive\Documents\Git\VISUAL\Aplikasi Pencari Luas Segitiga Sembarang\Aplikasi Pencari Luas Segitiga Sembarang\obj\Debug\Aplikasi Pencari Luas Segitiga Sembarang.vbproj.SuggestedBindingRedirects.cache
+C:\Users\LENOVO\OneDrive\Documents\Git\VISUAL\Aplikasi Pencari Luas Segitiga Sembarang\Aplikasi Pencari Luas Segitiga Sembarang\obj\Debug\Aplikasi_Pencari_Luas_Segitiga_Sembarang.Form1.resources
+C:\Users\LENOVO\OneDrive\Documents\Git\VISUAL\Aplikasi Pencari Luas Segitiga Sembarang\Aplikasi Pencari Luas Segitiga Sembarang\obj\Debug\Aplikasi_Pencari_Luas_Segitiga_Sembarang.Resources.resources
+C:\Users\LENOVO\OneDrive\Documents\Git\VISUAL\Aplikasi Pencari Luas Segitiga Sembarang\Aplikasi Pencari Luas Segitiga Sembarang\obj\Debug\Aplikasi Pencari Luas Segitiga Sembarang.vbproj.GenerateResource.cache
+C:\Users\LENOVO\OneDrive\Documents\Git\VISUAL\Aplikasi Pencari Luas Segitiga Sembarang\Aplikasi Pencari Luas Segitiga Sembarang\obj\Debug\Aplikasi Pencari Luas Segitiga Sembarang.vbproj.CoreCompileInputs.cache
+C:\Users\LENOVO\OneDrive\Documents\Git\VISUAL\Aplikasi Pencari Luas Segitiga Sembarang\Aplikasi Pencari Luas Segitiga Sembarang\obj\Debug\Aplikasi Pencari Luas Segitiga Sembarang.exe
+C:\Users\LENOVO\OneDrive\Documents\Git\VISUAL\Aplikasi Pencari Luas Segitiga Sembarang\Aplikasi Pencari Luas Segitiga Sembarang\obj\Debug\Aplikasi Pencari Luas Segitiga Sembarang.xml
+C:\Users\LENOVO\OneDrive\Documents\Git\VISUAL\Aplikasi Pencari Luas Segitiga Sembarang\Aplikasi Pencari Luas Segitiga Sembarang\obj\Debug\Aplikasi Pencari Luas Segitiga Sembarang.pdb
